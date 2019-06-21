@@ -18,7 +18,7 @@
     }
   },
   "scripts": {
-    "serve": "php -S 0.0.0.0:8080 -t public public/index.php",
-    "test": "phpunit --colors=always"
+    "serve": "php -S 127.0.0.1:8080 -t public public/index.php",
+    "test": "./vendor/phpunit/phpunit/phpunit --colors=always"
   }
 }
